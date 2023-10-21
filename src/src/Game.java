@@ -7,6 +7,8 @@ public class Game {
         System.out.println("Macera oyununa hoşgeldiniz !");
         Player player = new Player("Cihat");
         System.out.println("Sayın " + player.getName() + " bu karanlık ve sisli adaya hoşgeldin !! Burada yaşananların hepsi gerçek !");
+        System.out.println("Lütfen bir karakter seçiniz !");
+        System.out.println("---------------------------------------------------------");
         System.out.println("*** Karakterler ***");
         player.selectChar();
 
